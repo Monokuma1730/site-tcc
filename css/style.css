@@ -1,0 +1,100 @@
+:root{
+    --primary-color: #3347B0;
+}
+
+body {
+    margin: 0px;
+}
+
+header{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: var(--primary-color);
+    color: black;
+}
+
+main {
+    height: 700px
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 140px;
+    background-color: var(--primary-color);
+    font-family: 'BankGothic Md BT', sans-serif;
+    color:black;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-container div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+}
+
+.contact-container span{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.contact-container i{
+    text-align: center;
+    font-size: 1.3rem;
+    width: 25px;
+}
+
+.copyright-container{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.social-media-container ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.social-media-container a{
+    color: #fff;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: all 0.3s;
+}
+
+.social-media-container i{
+    font-size: 1.2rem;
+}
+
+.logo {
+    width: 20px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-family: 'BankGothic Md BT', sans-serif;
+}
